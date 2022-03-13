@@ -1,0 +1,72 @@
+body {
+	font-family: sans-serif;
+	background: tan;
+	width: 100vw;
+	border: 0px;
+}
+
+section,
+div,
+nav {
+	padding: 2rem;
+}
+.nav-link {
+	color: white;
+}
+nav {
+	position: fixed;
+	top: 0;
+	background: blue;
+	width: 100%;
+	
+}
+
+.nav-list {
+	list-style: none;
+}
+
+ a {
+	text-decoration: none;
+	color: black;
+}
+
+#welcome-section {
+	color: black;
+
+	
+	background-image:  url("https://images.vexels.com/media/users/3/268199/raw/7cc223c11bec62c445029ca7e9e68282-rainbow-smoke-cloud-background-design.jpg");
+/* 	display: flex;
+	place-items: center;
+	 */
+	padding-top: 0px;
+	margin-top: 0px;
+	display: block;
+		height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	
+	
+}
+
+li {
+	padding: 0.2rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+a:hover {
+	background: rgb(243,130,50);
+	transition: all 0.3s ease 0s;
+}
+
+@media (min-width: 500px) {
+	.nav-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+	}
+	li{
+		padding: 0.5rem;
+	}
+	
+}
